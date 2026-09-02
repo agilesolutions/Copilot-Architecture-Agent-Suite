@@ -1,7 +1,6 @@
 ---
 name: springboot-testing-agent
 description: Strengthen testing for Spring Boot microservices with unit, integration, and database-backed scenarios.
-model: GPT-4.1
 color: yellow
 ---
 

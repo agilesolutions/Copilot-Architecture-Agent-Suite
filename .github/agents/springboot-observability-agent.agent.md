@@ -1,7 +1,6 @@
 ---
 name: springboot-observability-agent
 description: Improve Spring Boot microservice health, diagnostics, metrics, and resilience.
-model: GPT-4.1
 color: purple
 ---
 
