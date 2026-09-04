@@ -1,8 +1,10 @@
 package com.example.demo.customer.service;
 
-import com.example.demo.customer.Customer;
+import com.example.demo.customer.entity.Customer;
 import com.example.demo.customer.dto.CustomerRequest;
 import com.example.demo.customer.dto.CustomerResponse;
+import com.example.demo.customer.exception.CustomerNotFoundException;
+import com.example.demo.customer.exception.DuplicateCustomerException;
 import com.example.demo.customer.repository.CustomerRepository;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;

@@ -1,7 +1,5 @@
 package com.example.demo.customer.exception;
 
-import com.example.demo.customer.service.CustomerNotFoundException;
-import com.example.demo.customer.service.DuplicateCustomerException;
 import jakarta.validation.ConstraintViolation;
 import jakarta.validation.ConstraintViolationException;
 import org.junit.jupiter.api.Test;
